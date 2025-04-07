@@ -25,3 +25,26 @@
 
 ## 5. 心得與收穫
 透過這次實作，更加了解不同協定的安全風險與封包結構。尤其 FTP 與 Telnet 雖然簡單易用，但因為傳輸內容未加密，不建議在公開網路中使用。
+
+
+
+
+📷 截圖建議（images 資料夾內容）
+圖檔名稱	說明
+https-login.png	擷取 HTTPS 登入封包截圖（例如 TLS handshake）
+http1-get.png	HTTP 瀏覽網站過程的 GET 請求封包截圖
+http2-post.png	HTTP 表單登入 POST 請求封包截圖
+ftp-login.png	FTP 登入時顯示帳密封包截圖
+telnet-command.png	Telnet 中下指令與主機回應的封包截圖
+📌 擷取技巧與觀察建議
+協定	過濾語法（Wireshark）	可觀察內容
+HTTPS	tcp.port == 443	TLS 握手過程（看不到帳密）
+HTTP	http 或 http.request	URI、GET/POST 參數、User-Agent
+FTP	ftp 或 ftp.request.command	USER、PASS、STOR、RETR 等命令
+Telnet	telnet 或 tcp.port == 23	使用者輸入的文字、伺服器回應
+❓你接下來可以做什麼：
+按這份架構照著操作一次並保存 .pcap 和截圖
+
+把圖片和檔案放上 GitHub
+
+把每個協定的分析與心得補到 report.md 中（我也可以幫你整理）
