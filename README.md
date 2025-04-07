@@ -123,8 +123,10 @@ Telnet	telnet 或 tcp.port == 23	使用者輸入的文字、伺服器回應
 
 
 ### 用 Invoke-WebRequest -Uri "https://www.ntnu.edu.tw" -UseBasicParsing   
-ip.addr == 140.122.65.193 and tcp.port == 443
 
+![image](https://github.com/user-attachments/assets/cb1b806e-d878-45cb-a7ea-10ec35f01081)
+
+ip.addr == 140.122.65.193 and tcp.port == 443
 ![image](https://github.com/user-attachments/assets/b995174f-d2c3-40e3-a515-c035f505bdcd)
 
 
