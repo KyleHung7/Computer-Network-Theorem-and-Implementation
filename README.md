@@ -77,6 +77,7 @@ Telnet	telnet 或 tcp.port == 23	使用者輸入的文字、伺服器回應
 ### cmd 輸入 tracert www.ntnu.edu.tw
 ![image](https://github.com/user-attachments/assets/d8800bbc-10cb-45f7-9f3c-2c7d89908ba8)
 ### 用 Wireshark 偵測封包
+#### 用icmp && ip.dst == 140.122.65.193過濾資料
 ![image](https://github.com/user-attachments/assets/9a266300-cdf2-4c23-a3a3-7f0fdf1236f9)
 | 編號範圍 | 發送端 → 目的端 | 封包類型 | TTL | 備註 |
 |----------|----------------|-----------|-----|------|
