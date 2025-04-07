@@ -36,6 +36,7 @@ http1-get.png	HTTP 瀏覽網站過程的 GET 請求封包截圖
 http2-post.png	HTTP 表單登入 POST 請求封包截圖
 ftp-login.png	FTP 登入時顯示帳密封包截圖
 telnet-command.png	Telnet 中下指令與主機回應的封包截圖
+
 📌 擷取技巧與觀察建議
 協定	過濾語法（Wireshark）	可觀察內容
 HTTPS	tcp.port == 443	TLS 握手過程（看不到帳密）
@@ -47,4 +48,4 @@ Telnet	telnet 或 tcp.port == 23	使用者輸入的文字、伺服器回應
 
 把圖片和檔案放上 GitHub
 
-把每個協定的分析與心得補到 report.md 中（我也可以幫你整理）
+把每個協定的分析與心得補到 report.md 中
