@@ -130,3 +130,64 @@ ip.addr == 140.122.65.193 and tcp.port == 443
 ![image](https://github.com/user-attachments/assets/b995174f-d2c3-40e3-a515-c035f505bdcd)
 
 
+
+
+http1
+![image](https://github.com/user-attachments/assets/c17f1d32-a6d0-430a-a2c6-59ea2a0bbab3)
+http
+![image](https://github.com/user-attachments/assets/9f1c788c-2cf5-49e6-b6af-dd8af8db1a7d)
+![image](https://github.com/user-attachments/assets/d255cb29-eaa3-4e0a-a7f7-235e86cb112b)
+
+
+1. 請求（Request）：
+plaintext
+複製
+編輯
+19	1.413853	192.168.102.232	34.223.124.45	HTTP	211	GET / HTTP/1.1
+時間戳：1.413853 秒
+
+來源 IP：192.168.102.232
+
+目標 IP：34.223.124.45 （這是伺服器的 IP）
+
+協議：HTTP
+
+封包大小：211 bytes
+
+HTTP 請求：GET / HTTP/1.1
+
+這表示客戶端（192.168.102.232）向伺服器（34.223.124.45）發送了 HTTP 請求，請求根目錄 (/) 的內容，並且使用了 HTTP 1.1 協議。
+
+2. 回應（Response）：
+plaintext
+複製
+編輯
+27	1.598800	34.223.124.45	192.168.102.232	HTTP	1439	HTTP/1.1 200 OK  (text/html)
+時間戳：1.598800 秒
+
+來源 IP：34.223.124.45 （伺服器）
+
+目標 IP：192.168.102.232 （客戶端）
+
+協議：HTTP
+
+封包大小：1439 bytes
+
+HTTP 回應：HTTP/1.1 200 OK (text/html)
+
+這表示伺服器對客戶端的請求作出了回應，並成功提供了網頁內容。回應狀態碼 200 OK 表示請求成功，並且返回的內容類型是 text/html（HTML 網頁）。
+
+解析：
+客戶端發送了一個 GET 請求，請求根目錄（/）的 HTML 頁面。
+
+伺服器返回了狀態碼 200 OK，表示請求成功，並且返回了 HTML 內容。
+
+
+
+http2
+
+
+
+
+
+
