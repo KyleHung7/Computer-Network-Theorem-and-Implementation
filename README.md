@@ -119,3 +119,10 @@ Telnet	telnet 或 tcp.port == 23	使用者輸入的文字、伺服器回應
 - 共發送每一跳 3 個封包，觀察穩定性與延遲。
 - TTL=5 時成功收到 Echo Reply，代表封包到達目的地。
 - 這是典型的 `traceroute` 探測過程。
+
+
+
+### 用 Invoke-WebRequest -Uri "https://www.ntnu.edu.tw" -UseBasicParsing   
+tls.record.content_type == 23
+TLS 加密的應用資料。
+
