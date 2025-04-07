@@ -123,6 +123,8 @@ Telnet	telnet 或 tcp.port == 23	使用者輸入的文字、伺服器回應
 
 
 ### 用 Invoke-WebRequest -Uri "https://www.ntnu.edu.tw" -UseBasicParsing   
-tls.record.content_type == 23
-TLS 加密的應用資料。
+ip.addr == 140.122.65.193 and tcp.port == 443
+
+![image](https://github.com/user-attachments/assets/b995174f-d2c3-40e3-a515-c035f505bdcd)
+
 
