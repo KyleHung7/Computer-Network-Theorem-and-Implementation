@@ -28,6 +28,24 @@
 
 
 
+'''
+wireshark-multi-protocol-analysis/
+├── README.md              # 專案總說明（下面會幫你寫初稿）
+├── captures/              # 封包擷取結果
+│   ├── https-site.pcap
+│   ├── http-site1.pcap
+│   ├── http-site2.pcap
+│   ├── ftp-session.pcap
+│   └── telnet-session.pcap
+├── images/                # 封包截圖
+│   ├── https-login.png
+│   ├── http1-get.png
+│   ├── http2-post.png
+│   ├── ftp-login.png
+│   └── telnet-command.png
+└── report.md              # 詳細分析與心得（可用 Markdown 寫）
+'''
+
 
 📷 截圖建議（images 資料夾內容）
 圖檔名稱	說明
